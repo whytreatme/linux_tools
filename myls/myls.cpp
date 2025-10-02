@@ -130,9 +130,9 @@ using namespace std;
 
         //最后一次的修改日期
         struct tm *ctm = localtime(&st.st_mtime);
-        cout << " " << setw(4) << ctm->tm_mon <<"月";
+        cout << " " << setw(4) << (ctm->tm_mon + 1) <<"月";
         cout << " " << setw(4) << ctm->tm_mday;
-        cout << " " << setw(6) << ctm->tm_year;
+        cout << " " << setw(6) << (ctm->tm_year + 1900);
     }
 
 
