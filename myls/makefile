@@ -7,7 +7,7 @@ libmyls.so:myls.cpp myls.h
 	g++ -fPIC -shared -o libmyls.so myls.cpp
 
 main: main.cpp  
-	g++ -o main main.cpp  $(INCLUDEDIR) $(LIBDIR) -lmyls
+	g++ -o main main.cpp  $(INCLUDEDIR) $(LIBDIR) -lmyls -g
 
 clean:
 	rm -f libmyls.so main
