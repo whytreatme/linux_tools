@@ -9,7 +9,7 @@
 
 ## 学习和使用的系统调用 / 库函数  
     - `opendir`, `readdir`, `closedir` （遍历目录）
-    -`stat` （获取文件的信息）
+    - `stat` （获取文件的信息）
     - `getpwuid`, `getgrgid` （获取用户名和组名）
     - `localtime` （处理时间）
     - `getopt` （解析命令行参数，提取选项）
