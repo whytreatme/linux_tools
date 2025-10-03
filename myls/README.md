@@ -7,3 +7,11 @@
     - `-A` 显示除 `.`和`..` 外的隐藏文件
     - `-l` 长格式显示文件详细信息（权限、用户、组、大小、修改时间）
 
+## 学习和使用的系统调用 / 库函数  
+    - `opendir`, `readdir`, `closedir` （遍历目录）
+    - `stat` （获取文件的信息）
+    - `getpwuid`, `getgrgid` （获取用户名和组名）
+    - `localtime` （处理时间）
+    - `getopt` （解析命令行参数，提取选项）
+    - `struct stat` , `struct dirent` （结构体使用练习）
+
