@@ -81,4 +81,4 @@ void childEXIT(int sig){
 
     cout << "子进程 " << getpid() << " 退出，sig = " << sig << endl;
     exit(0); 
-}
+}    
